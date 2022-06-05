@@ -3,7 +3,12 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - main block
+ * get a random number and print the number
+ * and if it positive , negative ,or zero
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
