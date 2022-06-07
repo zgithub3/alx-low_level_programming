@@ -3,32 +3,14 @@
 #include <time.h>
 /**
 *main - main block
-*Write a program that prints all possible different combinations of two digits
+*Program prints alphabet in lowcase, followed by a new line
 *Return: 0
 */
 int main(void)
 {
-int i, a, b;
-i = 0;
-	while (i < 100)
-	{
-		a = i % 10;
-		b = i / 10;
-
-		if (b < a)
-	{
-		putchar(b + '0');
-		putchar(a + '0');
-
-	if (i < 89)
-	{
-		putchar(44);
-		putchar(32);
-	}
-	}
-
-	i++;
-	}
+	char ch = 'a';
+		for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 		putchar('\n');
-return (0);
+	return (0);
 }
